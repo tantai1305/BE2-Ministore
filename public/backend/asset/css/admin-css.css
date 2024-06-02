@@ -1,0 +1,97 @@
+.btn {
+    cursor: pointer;
+}
+.btn:hover {
+    background: #76b6eb;
+}
+.admin-content-right label {
+    background: #1c1717;
+    color: antiquewhite;
+    text-align: center;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.admin-content-right label:hover {
+    background: #d4e8f8;
+    color: black;
+    border: 1px solid black;
+}
+.admin-content-left {
+    max-height: 700px;
+    overflow: scroll;
+}
+.admin-content-image input {
+    display: none;
+}
+.admin-content-images input {
+    display: none;
+}
+.img-show,
+.imgs-show {
+    min-height: 150px;
+}
+.input-group-text {
+    border: none;
+}
+.specs {
+    margin-bottom: 30px;
+}
+tr th {
+    color: white;
+    text-align: center;
+}
+/* mếu dữ liệu vượt qua cái max height thì thêm scroll */
+.table-responsive {
+    max-height: 500px;
+    overflow: scroll;
+}
+/* Áp dụng cho tất cả thẻ td trong bảng có id là 'dataTable' */
+#dataTable td {
+    text-align: center; /* Căn giữa nội dung theo chiều ngang */
+    vertical-align: middle; /* Căn giữa nội dung theo chiều dọc */
+    padding: 10px; /* Thêm padding vào tất cả bốn phía của nội dung trong td */
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#dataTable .action-link {
+    display: inline-block; /* Làm cho các liên kết dạng khối để áp dụng padding */
+    padding: 5px 10px; /* Thêm padding */
+    margin: 2px; /* Thêm một chút không gian giữa các liên kết */
+    text-align: center; /* Căn giữa text */
+    color: white; /* Màu chữ trắng */
+    border-radius: 5px; /* Bo góc cho hình chữ nhật */
+    text-decoration: none; /* Bỏ gạch chân của liên kết */
+}
+.edit-link {
+    background: #007bff;
+}
+.del-link {
+    background: red;
+}
+.confirm-link {
+    background: green;
+}
+.noconfirm-link {
+    background: red;
+}
+tr td img {
+    width: 70px;
+}
+#dataTable .total {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+/* set width height cho show ảnh đại diện trong trang admin  */
+#input-file-img #input-file-imgs  {
+    padding: 12px 0;
+}
+#input-file-img img {
+    width: 150px;
+}
+#input-file-imgs img {
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
